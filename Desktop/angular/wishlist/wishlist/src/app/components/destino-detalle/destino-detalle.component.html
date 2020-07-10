@@ -1,0 +1,14 @@
+<p>
+    Aqui vemos el dtalle de un destino de una viaje!
+    <br> {{destino.nombre}}
+</p>
+
+<hr>
+<mgl-map [style]="style" [zoom]="[2]" style="height: 50vh; width: 100vw;">
+
+    <mgl-marker [lngLat]="[-75.5510, 10.4211]">
+        <div onclick="alert('Hola')" class="marker">
+            Hola Mundo
+        </div>
+    </mgl-marker>
+</mgl-map>

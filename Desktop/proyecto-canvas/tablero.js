@@ -19,7 +19,7 @@ function iniciar(){
       lienzo.clearRect(620,cuadritos,100,100);
       lienzo.fillRect(720,cuadritos,100,100);
       
-      cuadritos=cuadritos+100;                                                          // Sumamos los cuadraditos
+      cuadritos=cuadritos+100;                                                          // Sumamos los cuadraditos alba
       
       lienzo.fillRect(20,cuadritos,100,100);
       lienzo.clearRect(120,cuadritos,100,100);

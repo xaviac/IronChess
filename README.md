@@ -1,2 +1,2 @@
-# ironchess
+# IronChess
 video game of chess

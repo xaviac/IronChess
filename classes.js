@@ -114,7 +114,7 @@ class BlackSide{
         }
 
         this.bBishopImg = new Image()
-        this.bBishopImg = "https://upload.wikimedia.org/wikipedia/commons/9/98/Chess_bdt45.svg" //"./black-bishop.svg"
+        this.bBishopImg.src = "https://upload.wikimedia.org/wikipedia/commons/9/98/Chess_bdt45.svg" //"./black-bishop.svg"
         this.bBishopImg.onload = () => {
             this.draw()
         }

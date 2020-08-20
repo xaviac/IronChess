@@ -1,3 +1,3 @@
-const board = new Board()
-const whiteSide = new WhiteSide()
-const blackSide = new BlackSide()
+// const board = new Board()
+// const whiteSide = new WhiteSide()
+// const blackSide = new BlackSide()

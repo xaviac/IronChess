@@ -1,10 +1,10 @@
-function update(){
-    //board.draw()
-    }
+// function update(){
+//     //board.draw()
+//     }
     
-    function clearCanvas(){
-        ctx.clearRect(0, 0, $canvas.width, $canvas.height)
-    }
+//     function clearCanvas(){
+//         ctx.clearRect(0, 0, $canvas.width, $canvas.height)
+//     }
     
     /*
     function board() {

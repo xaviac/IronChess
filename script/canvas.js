@@ -99,7 +99,7 @@ function drawMatrix(matrix, offset) {
   matrix.forEach((row, y) => {
     row.forEach((value, x) => {
       if (value !== 0) {
-        ctx.fillStyle = colors[value];
+        ctx.fillStyle = colors[randomColors()];
         ctx.fillRect(x + offset.x, y + offset.y, 1, 1);
       }
     });
@@ -211,6 +211,12 @@ const colors = [
     'purple',
     'yellow'
 ];
+
+function randomColors(){
+  for(let i = 0; i < colors.length; i++){
+    return Math.round(Math.random(i)*10)   
+  }
+}
 
 const arena = createMatrix(12, 20);
 

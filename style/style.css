@@ -5,17 +5,30 @@ body{
     background-image: url('https://assets.newatlas.com/dims4/default/45c79ad/2147483647/strip/true/crop/3574x2383+0+0/resize/1200x800!/format/webp/quality/90/?url=http%3A%2F%2Fnewatlas-brightspot.s3.amazonaws.com%2Farchive%2Fmit-tetris.JPG');
 
 }
-#score{
-    border: solid 0 black
-    font-family: sans-serif;
-    font-size: 45px;
-    text-align: center;
-    color: white;
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;    
 }
-canvas{
+
+p{
+    font-size: 5em;
+    color: thistle;
+}
+
+#score{    
+    border: 0;
+    font-family: sans-serif;
     text-align: center;
-    border: solid 1em grey;
+    color: thistle;
+    font-size: 7em;
+}
+canvas{    
+    text-align: center;
+    border: solid .5em #008cff;
     height: 90vh;
-    border-radius: 5%;
+    border-radius: 2%;
+    margin-top: 30px;
 
 }

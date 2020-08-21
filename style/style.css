@@ -17,6 +17,10 @@ p{
     color: thistle;
 }
 
+#arrows-control{
+    width: 45vh;
+}
+
 #score{    
     border: 0;
     font-family: sans-serif;

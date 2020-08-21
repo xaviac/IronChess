@@ -1,35 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tetris</title>
     <link rel="stylesheet" href="./style/style.css">
 </head>
+
 <body>
     <footer>
 
     </footer>
     <section class="main">
-    
-    <canvas id="tetris" width="240" height="400"></canvas>
-    <section>
-        <div>
-            <p>Score</p>
-        </div>
-    <div id="score"></div>
-    
-<div>
-    <audio id="sound" src="./sound/theme.mp3"></audio>
-  <button onclick="document.getElementById('sound').play()">Sound</button>  
-  <button onclick="document.getElementById('sound').volume+=0.1">+</button>
-  <button onclick="document.getElementById('sound').volume-=0.1">-</button>
-  <button onclick="document.getElementById('sound').pause()">Mute</button>
-</div> 
-    </section>
-    <script src="./script/canvas.js"></script>
+
+        <canvas id="tetris" width="240" height="400"></canvas>
+        <section>
+            <img id="arrows-control" src="./img/arrows-control.svg" alt="arrows-controls">
+            <div>
+                <audio id="sound" src="./sound/theme.mp3"></audio>
+                <button onclick="document.getElementById('sound').play()">Sound</button>
+                <button onclick="document.getElementById('sound').volume+=0.1">+</button>
+                <button onclick="document.getElementById('sound').volume-=0.1">-</button>
+                <button onclick="document.getElementById('sound').pause()">Mute</button>
+            </div>            
+            
+            <div>
+                <p>Score</p>
+            </div>
+            <div id="score"></div>
+
+        </section>
+        <script src="./script/canvas.js"></script>
     </section>
 </body>
+
 </html>
-
-
